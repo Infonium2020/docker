@@ -30,7 +30,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           username: ${{ secrets.vijaykumarinfonium }}
-          password: ${{ secrets.25f51230-8dc6-4c57-b857-9eab156b428c }}
+          password: ${{ secrets.simplewhaleci }}
 
       - name: Set up Docker Buildx
         id: buildx
